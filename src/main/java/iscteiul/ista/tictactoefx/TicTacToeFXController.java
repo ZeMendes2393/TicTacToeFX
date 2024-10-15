@@ -8,7 +8,7 @@ import javafx.scene.control.Label;
 import javafx.scene.layout.GridPane;
 
 public class TicTacToeFXController {
-    
+
     @FXML
     private Label labelMessage;
     @FXML
@@ -22,8 +22,8 @@ public class TicTacToeFXController {
         TicTacToeTile[][] buttons = new TicTacToeTile[width][width];
 
         int box_number = 0;
-        for (int i=0; i<width; i++) {
-            for (int j=0; j<width; j++) {
+        for (int i = 0; i < width; i++) {
+            for (int j = 0; j < width; j++) {
                 buttons[i][j] = new TicTacToeTile(box_number++);
                 buttons[i][j].setPrefHeight(100);
                 buttons[i][j].setPrefWidth(100);

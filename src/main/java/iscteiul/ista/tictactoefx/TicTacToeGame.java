@@ -32,7 +32,6 @@ public class TicTacToeGame {
         return board.checkWinner(marker);
     }
 
-
     public void changeTurn() {
         currentPlayer = currentPlayer == player1 ? player2 : player1;
     }
