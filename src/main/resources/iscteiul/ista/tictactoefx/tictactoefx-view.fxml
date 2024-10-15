@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17.0.12" fx:controller="iscteiul.ista.tictactoefx.TicTacToeFXController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+    <ToolBar prefHeight="40.0" prefWidth="200.0">
+        <items>
+            <Button fx:id="start" mnemonicParsing="false" onAction="#onStartButtonClick" text="Start" />
+            <Button fx:id="quit" layoutX="10.0" layoutY="13.0" mnemonicParsing="false" onAction="#onQuitButtonClick" text="Quit" />
+        </items>
+    </ToolBar>
+    <GridPane fx:id="tiles" prefHeight="200.0" prefWidth="200.0" />
+    <Label fx:id="labelMessage" />
+</VBox>
