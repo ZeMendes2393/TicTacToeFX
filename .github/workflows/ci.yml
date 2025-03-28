@@ -27,3 +27,4 @@ jobs:
         run: mvn test
 
       - name: Gerar Javadoc
+        run: mvn javadoc:javadoc
